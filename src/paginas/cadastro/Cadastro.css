@@ -1,8 +1,21 @@
 .fundoCadastro {
-    background-image: url(../../assets/cadastro.jpg);
-      background-repeat: no-repeat;
-      width: 100%;
-      min-height: 100vh;
-      background-size: cover;
-      background-position: center;
+    background-image: url(../../assets/login.png);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 70%;
+    background-size: cover;
+    background-position: center;
+  }
+  .imagemDeFundoAtras {
+    background-image: url(../../assets/leaves.gif); /* Substitua 'outra-imagem.jpg' pelo caminho da imagem que você deseja usar como fundo */
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    filter: blur(2px);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Define um índice z para que fique atrás do .fundoLogin */
   }
