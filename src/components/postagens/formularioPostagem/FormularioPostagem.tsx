@@ -150,7 +150,7 @@ function FormularioPostagem() {
             placeholder="Titulo"
             name="titulo"
             required
-            className="border-2 border-slate-700 rounded p-2"
+            className="border-2 border-lime-700 rounded p-2"
           />
         </div>
         <div className="flex flex-col gap-2">
@@ -176,7 +176,7 @@ function FormularioPostagem() {
             ))}
           </select>
         </div>
-        <button disabled={carregandoTema} type='submit' className='rounded disabled:bg-slate-200 bg-indigo-400 hover:bg-indigo-800 text-white font-bold w-1/2 mx-auto block py-2'>
+        <button disabled={carregandoTema} type='submit' className='rounded disabled:bg-slate-200 bg-lime-400 hover:bg-lime-800 text-white font-bold w-1/2 mx-auto block py-2'>
           {carregandoTema ? <span>Carregando</span> : id !== undefined ? 'Editar' : 'Cadastrar'}
         </button>
       </form>
